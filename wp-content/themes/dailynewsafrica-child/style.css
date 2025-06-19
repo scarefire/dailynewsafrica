@@ -10,5 +10,27 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: dailynewsafrica
 */
 
+@font-face {
+    font-family: 'Helvetica Neue LT Std';
+    src: url('https://numero.com/wp-content/themes/understrap-child-main/src/public/fonts/HelveticaNeueLTStd-Roman.woff2') format('woff2'),
+         url('https://numero.com/wp-content/themes/understrap-child-main/src/public/fonts/HelveticaNeueLTStd-Roman.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue LT Std';
+    src: url('https://numero.com/wp-content/themes/understrap-child-main/src/public/fonts/HelveticaNeueLTStd-Hv.woff2') format('woff2'),
+         url('https://numero.com/wp-content/themes/understrap-child-main/src/public/fonts/HelveticaNeueLTStd-Hv.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: 'Helvetica Neue LT Std', 'Helvetica Neue', Arial, sans-serif;
+}
+
 /* Custom styles here */
 
